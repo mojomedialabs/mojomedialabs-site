@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+a {
+	color: #79797a;
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+}
+
+#wrapper {
+	background: url(../images/background.png);
+	display: none;
+	height: 600px;
+	margin: 0 auto;
+	width: 900px;
+}
+
+#header {
+	height: 70px;
+}
+
+#logo {
+	float: right;
+	height: 100%;
+	width: 400px;
+}
+
+#logo-box-text {
+	color: #aaaaaa;
+	float: left;
+	font-family: Tahoma, sans-serif;
+	font-size: 17px;
+	height: 100%;
+}
+
+#logo-text {
+	padding: 20px 0 0 41px;
+}
+
+#logo-box-image {
+	float: left;
+	font-size: 19px;
+	height: 100%;
+	margin-left: 10px;
+	width: 145px;
+}
+
+#logo-image {
+	height: 37px;
+	margin-top: 10px;
+	width: 108px;
+}
+
+#container {
+	min-height: 480px;
+}
+
+#footer-nav {
+	float: left;
+	font-size: 13px;
+	height: 20px;
+	margin: 25px 0 0 60px;
+	width: 600px;
+}
+
+#footer-nav ul {
+	list-style: none;
+}
+
+#footer-nav ul li {
+	float: left;
+	margin: 0 85px 50px 0;
+	width: 100px;
+}
+
+#footer-nav ul li a {
+	color: #79797a;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0.5px 0.5px 1px white;
+}
+
+#footer-nav-subjects a:hover {
+	color: #303030;
+}
+
+#footer-nav-our-dna a:hover {
+	color: #00756b;
+}
+
+#footer-nav-scientists a:hover {
+	color: #ff0000;
+}
+
+#footer-info {
+	color: #79797a;
+	float: left;
+	font-size: 12px;
+	height: 20px;
+	width: 233px;
+}
+
+#social-icons {
+	height: 20px;
+	margin: 20px 0 0 60px;
+	width: 81px;
+}
+
+#social-icons .social-icon {
+	float: left;
+	margin-right: 3px;
+	width: 24px;
+}
+
+.popup-panel {
+	display: none;
+	font-size: 14px;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+	opacity: 0.9;
+}
+
+.ui-tabs {
+	min-height: 400px;
+}
